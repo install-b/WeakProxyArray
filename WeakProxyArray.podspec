@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   A short description of WeakProxyArray.
                    DESC
 
-  spec.homepage     = "http://github.com/install-b/WeakProxyArray"
+  spec.homepage     = "https://github.com/install-b/WeakProxyArray"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -68,8 +68,8 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
-  # spec.osx.deployment_target = "10.7"
+  spec.ios.deployment_target = "8.0"
+  spec.osx.deployment_target = "10.8"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://github.com/install-b/WeakProxyArray.git", :tag => spec.version }
+  spec.source       = { :git => "https://github.com/install-b/WeakProxyArray.git", :tag => spec.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
